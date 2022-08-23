@@ -22,7 +22,7 @@ jobs:
     - name: Set up .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 6.0.x
+        dotnet-version: 5.0.x
     - name: Download ShiftLeft CLI
       run: |
         Invoke-WebRequest -Uri 'https://cdn.shiftleft.io/download/sl-latest-windows-x64.zip' -OutFile sl.zip
